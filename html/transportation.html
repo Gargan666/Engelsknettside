@@ -2,25 +2,34 @@
 <html>
     <head>
 
-        <title>Welcome to England!</title>
+        <title>England Navigator</title>
         <link rel="stylesheet" href="../css/style.css">
 
     </head>
 
     <body>
 
+        <!--Main container (for less clutter)-->
         <main id="home-main">
+            <!--Header section-->
             <header>
-                <img src="../images/logo.png" id="logo">
-                <a href="../index.html">Home</a>
-                <a href="../html/about.html">About us</a>
+                <img src="../images/logo.png" id="logo"> 
+                <div id="header-container">
+                    <h1>England<br>Navigator</h1>
+                    <div id="header-buttons">
+                        <a href="../index.html">Home</a>
+                        <a href="about.html">About</a>
+                    </div>
+                </div>
             </header>
 
+            <!--Intro text-->
             <section>
                 England is a famous country. It has been around for a long time and thus has a lot of history.<br>
                 Therefore, the point of this website is to show you this history firsthand, and to give you a nice vacation!
             </section>
 
+            <!--Page content container for separation of flex directions (main body column and this div row)-->
             <div id="stuff">
 
                 <nav>
@@ -52,7 +61,7 @@ National Rail is the shared name of all rail transportation companies in England
 
             </div>
 
-
+            <!--Footer-->
             <footer>
                 If you want to reach out personally, for example if you have complaints, reach out to us by email or phone!<br>
                 Email: [Insert imaginary email here]<br>
